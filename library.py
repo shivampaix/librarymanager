@@ -4,7 +4,7 @@ class library:
         self.name=name
         self.lenddict={}
     def displaybooks(self):
-        print(f"We have these books in our Library: {self.name}")
+        print(f"We have these books in {self.name}'s Library:")
         for book in self.bookslist:
             print(book)
     def totalbooks(self):
